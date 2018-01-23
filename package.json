@@ -1,6 +1,6 @@
 {
   "name": "node-raiblocks-rpc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A NodeJS client for the RaiBlocks' RPC API",
   "main": "lib/index.js",
   "directories": {
@@ -13,14 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/SkyzohKey/node-raiblocks-rpc.git"
   },
-  "keywords": [
-    "raiblocks",
-    "xrb",
-    "json",
-    "rpc",
-    "api",
-    "client"
-  ],
+  "keywords": ["raiblocks", "xrb", "json", "rpc", "api", "client"],
   "author": "SkyzohKey <skyzohkey@protonmail.com>",
   "license": "MIT",
   "bugs": {
