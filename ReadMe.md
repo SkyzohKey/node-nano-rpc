@@ -7,7 +7,7 @@ native promises.
 All RPC calls are defined here:
 https://github.com/clemahieu/raiblocks/wiki/RPC-protocol
 
-## [Become a patron](https://www.patreon.com/bePatron?u=2330345) &nbsp;~&nbsp; [Donate](#donate)
+## [Become a patron](https://www.patreon.com/bePatron?u=2330345) &nbsp;~&nbsp; [Donate](#donations)
 
 #### Table of Contents
 
