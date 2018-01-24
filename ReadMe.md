@@ -1,5 +1,7 @@
 # RaiBlocks NodeJS RPC Client
 
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FSkyzohKey%2Fnode-raiblocks-rpc.svg?type=small)](https://app.fossa.io/projects/git%2Bgithub.com%2FSkyzohKey%2Fnode-raiblocks-rpc?ref=badge_small) [![npm version](https://badge.fury.io/js/node-raiblocks-rpc.svg)](https://badge.fury.io/js/node-raiblocks-rpc)
+
 RaiBlocks RPC client written with NodeJS.
 It produces JSON objects or strings as output, wrapped in
 native promises.
