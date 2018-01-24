@@ -15,7 +15,7 @@ https://github.com/clemahieu/raiblocks/wiki/RPC-protocol
 
 * [Getting Started](#getting-started)
   * [Examples](#examples)
-  * [Promise-wrapped responses](#promise-wrapped-responses)
+  * [Promise-wrapped responses](#promise-wrapped-responses)
   * [Methods Names](#methods-names)
   * [Arguments](#arguments)
   * [Returned value](#returned-value)
