@@ -1,8 +1,11 @@
 # RaiBlocks NodeJS RPC Client
 
-RaiBlocks RPC client written with NodeJS.
-It produces JSON objects or strings as output, wrapped in
-native promises.
+[![npm version](https://nodei.co/npm/node-raiblocks-rpc.png)](https://www.npmjs.com/package/node-raiblocks-rpc)
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FSkyzohKey%2Fnode-raiblocks-rpc.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FSkyzohKey%2Fnode-raiblocks-rpc?ref=badge_small) [![npm version](https://badge.fury.io/js/node-raiblocks-rpc.svg)](https://badge.fury.io/js/node-raiblocks-rpc)
+
+RaiBlocks RPC client written with NodeJS.  
+It produces JSON objects or strings as output, wrapped in native promises.
 
 All RPC calls are defined here:
 https://github.com/clemahieu/raiblocks/wiki/RPC-protocol
@@ -13,7 +16,7 @@ https://github.com/clemahieu/raiblocks/wiki/RPC-protocol
 
 * [Getting Started](#getting-started)
   * [Examples](#examples)
-  * [Promise-wrapped responses](#promise--wrapped-responses)
+  * [Promise-wrapped responses](#promise-wrapped-responses)
   * [Methods Names](#methods-names)
   * [Arguments](#arguments)
   * [Returned value](#returned-value)
@@ -145,10 +148,11 @@ $ ./node_modules/mocha/bin/mocha --grep account_balance --timeout 10000
 
 You can be even more specific by adding `only` to the individual tests. Example for `account_balance()`:
 
-```
+```diff
 describe("RaiClient.account_balance()", done => {
-  it.only("should retrieve account balance", () => {
-    expect(client.account_balance(WALLET_ADDRESS))
++ it.only("should retrieve account balance", () => {
+- it("should retrieve account balanve", () => {
+    expect(client.account_balance(WALLET_ADDRESS))
       .to.eventually.contain('"balance"')
       .and.to.eventually.contain('"pending"')
       .notify(done);
@@ -188,5 +192,8 @@ If you wish to support me, but doesn't have money for, you can still message me 
 * Wire handle: **@SkyzohKey**
 
 ## License
+You can find an in-depth analysis of the dependencies license on [FOSSA](https://app.fossa.io/reports/c98c4d73-3c54-4bdb-b804-678f37c429fd)
 
 This project is licensed under [The MIT License](LICENSE).
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FSkyzohKey%2Fnode-raiblocks-rpc.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FSkyzohKey%2Fnode-raiblocks-rpc?ref=badge_large)
