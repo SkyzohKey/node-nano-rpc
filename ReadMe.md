@@ -188,5 +188,8 @@ If you wish to support me, but doesn't have money for, you can still message me 
 * Wire handle: **@SkyzohKey**
 
 ## License
+You can find an in-depth analysis of the dependencies license on [FOSSA](https://app.fossa.io/reports/c98c4d73-3c54-4bdb-b804-678f37c429fd)
 
 This project is licensed under [The MIT License](LICENSE).
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FSkyzohKey%2Fnode-raiblocks-rpc.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FSkyzohKey%2Fnode-raiblocks-rpc?ref=badge_large)
