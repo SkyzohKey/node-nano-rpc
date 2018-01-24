@@ -15,7 +15,7 @@ https://github.com/clemahieu/raiblocks/wiki/RPC-protocol
 
 * [Getting Started](#getting-started)
   * [Examples](#examples)
-  * [Promise-wrapped responses](#promise--wrapped-responses)
+  * [Promise-wrapped responses](#promise-wrapped-responses)
   * [Methods Names](#methods-names)
   * [Arguments](#arguments)
   * [Returned value](#returned-value)
@@ -147,10 +147,11 @@ $ ./node_modules/mocha/bin/mocha --grep account_balance --timeout 10000
 
 You can be even more specific by adding `only` to the individual tests. Example for `account_balance()`:
 
-```
+```diff
 describe("RaiClient.account_balance()", done => {
-  it.only("should retrieve account balance", () => {
-    expect(client.account_balance(WALLET_ADDRESS))
++ it.only("should retrieve account balance", () => {
+- it("should retrieve account balanve", () => {
+    expect(client.account_balance(WALLET_ADDRESS))
       .to.eventually.contain('"balance"')
       .and.to.eventually.contain('"pending"')
       .notify(done);
